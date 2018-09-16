@@ -37,14 +37,14 @@ I built the new FCN by performing a 1x1 convolution on the output (7th layer) of
 ### Results
 On one of my early test runs, the new classifier did a decent job figuring out where the road was, even though I trained it with just 6 epochs and a batch size of 5.
 
-[image1]
-[image2]
-[image3]
-[image4]
-[image5]
-[image6]
-[image7]
+![alt text][image1]
+![alt text][image2]
+![alt text][image3]
+![alt text][image4]
+![alt text][image5]
+![alt text][image6]
+![alt text][image7]
 
 #### Final Result
-I tuned my training variables to run for 120 epochs with a batch size of 10 and a 25% dropout rate. I was pretty happy with the results
+We tuned the training variables to run for 120 epochs with a batch size of 10 and a 25% dropout rate. We recieved much better results.
 [](./runs/image.png)
