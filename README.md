@@ -7,6 +7,13 @@
 [image6]: ./old_runs/image6.png
 [image7]: ./old_runs/image7.png
 
+[image8]: ./new_runs/image1.png
+[image9]: ./new_runs/image2.png
+[image10]: ./new_runs/image3.png
+[image11]: ./new_runs/image4.png
+[image12]: ./new_runs/image5.png
+[image13]: ./new_runs/image6.png
+[image14]: ./new_runs/image7.png
 # Semantic Segmentation
 ### Introduction
 In this project, I labeled the pixels of a road in images using a Fully Convolutional Network (FCN).
@@ -47,7 +54,14 @@ On one of my early test runs, the new classifier did a decent job figuring out w
 
 #### Final Result
 We tuned the training variables to run for 120 epochs with a batch size of 10 and a 25% dropout rate. We recieved much better results.
-[](./runs/image.png)
+
+![alt text][image8]
+![alt text][image9]
+![alt text][image10]
+![alt text][image11]
+![alt text][image12]
+![alt text][image13]
+![alt text][image14]
 
 ```
 Training...Epoch: 0
